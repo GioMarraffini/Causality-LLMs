@@ -1,0 +1,29 @@
+scenario_id,mean,median,std,paper,causal_structure
+scenario_1,93.75,95.0,2.5,"MoCa: Measuring Human-Language Model
+ Alignment on Causal and Moral Judgment Tasks",Conjunctive causation
+scenario_2,2.5,2.5,2.89,"MoCa: Measuring Human-Language Model
+ Alignment on Causal and Moral Judgment Tasks",Disjunctive causation
+scenario_3,86.25,85.0,2.5,Judgments of cause and blame: The effects of intentionality and foreseeability,Causal chain
+scenario_4,85.0,85.0,4.08,Judgments of cause and blame: The effects of intentionality and foreseeability,Causal chain
+scenario_5,65.0,65.0,9.13,Judgments of cause and blame: The effects of intentionality and foreseeability,Causal chain
+scenario_6,68.75,87.5,39.24,Judgments of cause and blame: The effects of intentionality and foreseeability,Causal chain
+scenario_7,31.25,20.0,33.26,Judgments of cause and blame: The effects of intentionality and foreseeability,Causal chain
+scenario_8,70.0,90.0,40.0,Judgments of cause and blame: The effects of intentionality and foreseeability,Causal chain
+scenario_9,42.5,35.0,34.03,Judgments of cause and blame: The effects of intentionality and foreseeability,Causal chain
+scenario_10,91.25,95.0,7.5,Can unintended side effects be intentional? Resolving a controversy over intentionality and morality,Not reported
+scenario_11,90.0,90.0,8.16,Can unintended side effects be intentional? Resolving a controversy over intentionality and morality,Not reported
+scenario_12,37.5,25.0,39.69,Can unintended side effects be intentional? Resolving a controversy over intentionality and morality,Not reported
+scenario_13,65.0,72.5,16.83,Can unintended side effects be intentional? Resolving a controversy over intentionality and morality,Not reported
+scenario_14,87.5,90.0,5.0,Attribution of Responsibility Between Agents in a Causal Chain of Events,Causal chain
+scenario_15,71.25,90.0,40.9,Attribution of Responsibility Between Agents in a Causal Chain of Events,Collider with temporal delay
+scenario_16,67.5,85.0,35.0,Attribution of Responsibility Between Agents in a Causal Chain of Events,Causal chain
+scenario_17,68.75,87.5,39.24,Attribution of Responsibility Between Agents in a Causal Chain of Events,Causal chain
+scenario_18,86.25,85.0,2.5,Attribution of Responsibility Between Agents in a Causal Chain of Events,Causal chain
+scenario_19,53.75,60.0,42.7,Attribution of Responsibility Between Agents in a Causal Chain of Events,Causal chain
+scenario_20,66.25,81.0,42.57,Attribution of Responsibility Between Agents in a Causal Chain of Events,nan
+scenario_21,78.75,82.5,9.46,Attribution of Responsibility Between Agents in a Causal Chain of Events,nan
+scenario_22,40.0,27.5,33.91,Attribution of Responsibility Between Agents in a Causal Chain of Events,nan
+scenario_23,62.5,77.5,39.26,Causal superseding,Conjunctive causation
+scenario_24,90.0,90.0,0.0,Causal superseding,Conjunctive causation
+scenario_25,97.5,97.5,2.89,Causal superseding,Conjunctive causation
+scenario_26,67.5,90.0,45.0,Causal superseding,Disjunctive causation
