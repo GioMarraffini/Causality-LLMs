@@ -48,8 +48,9 @@ class CausalAnalysis:
                 variation_type = result['variation_type']
                 
                 # Invert scale for negative_causal_assessment
-                if variation_type == 'negative_causal_assessment':
+                if variation_type == 'negative_causal_assessment' or variation_type == 'counterfactual_reasoning':
                     rating = 100 - rating
+
                 
                 self.processed_data.append({
                     'scenario_id': scenario_id,
@@ -240,6 +241,9 @@ class CausalAnalysis:
         scenario_stats_sorted['scenario_num'] = scenario_stats_sorted['scenario_id'].str.extract(r'(\d+)').astype(int)
         scenario_stats_sorted = scenario_stats_sorted.sort_values('scenario_num')
         
+        # Extract just the numbers for x-axis labels
+        scenario_numbers = scenario_stats_sorted['scenario_num'].astype(str)
+        
         fig, axes = plt.subplots(1, 3, figsize=(20, 8))
         
         # Mean plot
@@ -249,7 +253,7 @@ class CausalAnalysis:
         axes[0].set_xlabel('Scenario ID')
         axes[0].set_ylabel('Mean Rating')
         axes[0].set_xticks(range(len(scenario_stats_sorted)))
-        axes[0].set_xticklabels(scenario_stats_sorted['scenario_id'], rotation=45)
+        axes[0].set_xticklabels(scenario_numbers, rotation=45)
         axes[0].grid(True, alpha=0.3)
         axes[0].set_ylim(0, 100)
         
@@ -260,7 +264,7 @@ class CausalAnalysis:
         axes[1].set_xlabel('Scenario ID')
         axes[1].set_ylabel('Median Rating')
         axes[1].set_xticks(range(len(scenario_stats_sorted)))
-        axes[1].set_xticklabels(scenario_stats_sorted['scenario_id'], rotation=45)
+        axes[1].set_xticklabels(scenario_numbers, rotation=45)
         axes[1].grid(True, alpha=0.3)
         axes[1].set_ylim(0, 100)
     
@@ -271,7 +275,7 @@ class CausalAnalysis:
         axes[2].set_xlabel('Scenario ID')
         axes[2].set_ylabel('Standard Deviation')
         axes[2].set_xticks(range(len(scenario_stats_sorted)))
-        axes[2].set_xticklabels(scenario_stats_sorted['scenario_id'], rotation=45)
+        axes[2].set_xticklabels(scenario_numbers, rotation=45)
         axes[2].grid(True, alpha=0.3)
         
         plt.tight_layout()
@@ -306,6 +310,12 @@ class CausalAnalysis:
         p_matrix_reordered = p_matrix[order][:, order]
         scenario_ids_reordered = scenario_stats['scenario_id'].values[order]
         
+        # Extract just the numbers for tick labels
+        scenario_numbers_reordered = []
+        for scenario_id in scenario_ids_reordered:
+            scenario_num = scenario_id.split('_')[-1]  # Extract number from "scenario_X"
+            scenario_numbers_reordered.append(scenario_num)
+        
         # Create heatmap with reordered data
         sns.heatmap(p_matrix_reordered, 
                    mask=mask,
@@ -321,11 +331,11 @@ class CausalAnalysis:
         ax.set_xlabel('Scenario ID')
         ax.set_ylabel('Scenario ID')
         
-        # Set tick labels with reordered scenario IDs
-        ax.set_xticks(np.arange(len(scenario_ids_reordered)) + 0.5)
-        ax.set_yticks(np.arange(len(scenario_ids_reordered)) + 0.5)
-        ax.set_xticklabels(scenario_ids_reordered, rotation=45, ha='right')
-        ax.set_yticklabels(scenario_ids_reordered, rotation=0)
+        # Set tick labels with reordered scenario numbers
+        ax.set_xticks(np.arange(len(scenario_numbers_reordered)) + 0.5)
+        ax.set_yticks(np.arange(len(scenario_numbers_reordered)) + 0.5)
+        ax.set_xticklabels(scenario_numbers_reordered, rotation=45, ha='right')
+        ax.set_yticklabels(scenario_numbers_reordered, rotation=0)
         
         plt.tight_layout()
         plt.savefig(self.results_dir / 'scenario_wilcoxon_heatmap.png', dpi=300, bbox_inches='tight')

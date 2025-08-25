@@ -1,5 +1,5 @@
 variation_type,mean,median,std
 causal_strength_direct,73.27,85.0,28.18
-counterfactual_reasoning,45.58,20.0,38.38
+counterfactual_reasoning,54.42,80.0,38.38
 negative_causal_assessment,68.35,90.0,35.21
 positive_causal_assessment,75.69,87.5,26.56
