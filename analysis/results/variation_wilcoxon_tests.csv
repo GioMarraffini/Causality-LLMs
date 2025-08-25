@@ -1,0 +1,13 @@
+variation1,variation2,statistic,p_value,significant
+positive_causal_assessment,negative_causal_assessment,22.0,0.099694150217767,False
+positive_causal_assessment,counterfactual_reasoning,30.0,0.0050571449750677405,True
+positive_causal_assessment,causal_strength_direct,41.5,0.48051847658284075,False
+negative_causal_assessment,positive_causal_assessment,22.0,0.099694150217767,False
+negative_causal_assessment,counterfactual_reasoning,43.5,0.03787005179216641,True
+negative_causal_assessment,causal_strength_direct,87.5,0.5088985381485462,False
+counterfactual_reasoning,positive_causal_assessment,30.0,0.0050571449750677405,True
+counterfactual_reasoning,negative_causal_assessment,43.5,0.03787005179216641,True
+counterfactual_reasoning,causal_strength_direct,64.0,0.013911974806937823,True
+causal_strength_direct,positive_causal_assessment,41.5,0.48051847658284075,False
+causal_strength_direct,negative_causal_assessment,87.5,0.5088985381485462,False
+causal_strength_direct,counterfactual_reasoning,64.0,0.013911974806937823,True
