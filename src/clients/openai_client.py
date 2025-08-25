@@ -4,7 +4,7 @@ import hashlib
 import aiohttp
 import asyncio
 from typing import List, Dict, Any, Optional, Union
-from consts import (
+from .consts import (
     OPENAI_API_URL, DEFAULT_MODEL, CACHE_DIR, CACHE_FILE,
     DEFAULT_TIMEOUT, DEFAULT_CONNECT_TIMEOUT, DEFAULT_RETRY_ATTEMPTS,
     DEFAULT_RETRY_DELAY

@@ -2,9 +2,9 @@
 OPENAI_API_URL = "https://api.openai.com/v1"
 
 # Default model configurations
-DEFAULT_MODEL = "gpt-4o"
+DEFAULT_MODEL = "gpt-5-mini"
 DEFAULT_MAX_TOKENS = 4096
-DEFAULT_TEMPERATURE = 0.7
+DEFAULT_TEMPERATURE = 0.0
 
 # Cache settings
 CACHE_DIR = ".cache"

@@ -1,0 +1,152 @@
+Paper,Unnamed: 1,Unnamed: 2,Scenario,Causal Structure,Factor that affects causal judgements,Unnamed: 6,Unnamed: 7,Unnamed: 8,Unnamed: 9,Unnamed: 10,Unnamed: 11,Questions ,Type of outcome,Results/Conclusion,Link 
+,Comentario,N° Escenario y Condición ,,,Normality,Morality ,Foreseeability,Intention,Voluntariness,Location ,Epistemic States,,,,
+"MoCa: Measuring Human-Language Model
+ Alignment on Causal and Moral Judgment Tasks",El escenario fue extraído tal cual está escrito.,1,"Lauren and Jane work for the same company. They each need to use a computer for work sometimes. Unfortunately, the computer isn't very powerful. If two people are logged on at the same time, it usually crashes. So the company decided to institute an official policy. It declared that Lauren would be the only one permitted to use the computer in the mornings and that Jane would be the only one permitted to use the computer in the afternoons. As expected, Lauren logged on the computer the next day at 9:00 am. But Jane decided to disobey the official policy. She also logged on at 9:00 am. The computer crashed immediately",Conjunctive causation ,,,,,,,,Did Jane cause the computer to crash?,,Yes,https://arxiv.org/pdf/2310.19677
+,El escenario fue extraído tal cual está escrito.,2,"Louie is playing a game of basketball, and he made a bet with his friends who
+are watching on the sidelines. If Louie either makes a layup or makes a 3-point
+shot during the game, then he'll win $100. Just when the game started, Louie
+immediately got the ball at the 3-point line. He looked to the basket, focused
+his shot, and made a 3-point shot right at the beginning of the game. Louie and
+his friends continued playing, but as hard as he tried, Louie couldn't make
+another shot. And then right at the end of the game as the clock was winding
+down, Louie got the ball at the 3-point line. He looked to the basket, dribbled
+in, and then made a layup right at the buzzer. Then the game ended. Because
+Louie would win $100 if he either made a layup or a 3-point shot, Louie won
+$100.",Disjunctive causation ,,,,,,,,Did Louie win the $100 bet because he made the layup?,,Yes,https://arxiv.org/pdf/2310.19677
+Judgments of cause and blame: The effects of intentionality and foreseeability ,El escenario fue extraído tal cual está escrito.,1.1,"George had been ill for a long time. His wife looked after him at home. She was tired of caring for him and gave him an overdose of his tablets. George had a
+heart attack. His wife phoned the ambulance. However, there was heavy traffic and the ambulance could not get through. The ambulance did not arrive and
+George died.",Causal chain,,,,x,,,,,,"Preliminary analysis revealed no effect of the order in
+which cause and blame questions were asked (cause first
+vs. blame first, so this factor was
+dropped from subsequent analyses. The cause and blame
+judgments were then analysed separately. . Intentional events were preferred over unintentional and
+physical events for both cause and blame judgments. Regard intentionality as a key determinant
+of blame attributions. Moreover, both theories also predict
+an influence of intentionality on causal judgments. Blame judgments were also much higher for unintentional rather than physical events.",https://www.sciencedirect.com/science/article/abs/pii/S0010027708001637
+,"El escenario NO fue extraido tal cual está escrito, fue reconstruido con información proporcioanda. ",1.2,"George had been ill for a long time. His short-sighted wife looked after him at home and gave him an overdose by mistake. George had a
+heart attack. His wife phoned the ambulance. However, the ambulance driver got lost. The ambulance did not arrive and
+George died.",Causal chain,,,,x,,,,,,,https://www.sciencedirect.com/science/article/abs/pii/S0010027708001637
+,"El escenario NO fue extraido tal cual está escrito, fue reconstruido con información proporcioanda. ",1.3,"George had been ill for a long time. His wife looked after him at home and gave him tablets that have been wrongly labelled by the machine. George had a
+heart attack. His wife phoned the ambulance. However, the ambulance centre ignored the call and George died.",Causal chain,,,,x,,,,,,,https://www.sciencedirect.com/science/article/abs/pii/S0010027708001637
+,El escenario fue extraído tal cual está escrito.,2.1,"Lucy buys a self-assembly chair and starts to put it together. The instructions are very confusing. Lucy thinks she has not made the chair properly and it is
+likely to break. Indeed, she has not made the chair properly and it is likely to break. Lucy’s sister comes into the room and sits down on the new chair. The
+chair collapses beneath Lucy’s sister, injuring her.",Causal chain,,,x,x,,,,,,"This revealed a main effect of intention,
+ with intentional actions  rated higher
+than unintentional actions ; a main effect of subjective probability, with actions rated
+higher when the agent expected the outcome (3.08) than
+when they did not ; and a main effect of objective
+probability,  with actions rated
+higher when the outcome was objectively likely 
+than when it was not. Intentional actions were rated more
+highly than unintentional actions, for both causal and
+blame judgments. Intentionality is a central dimension for blame attributions, and an
+influence on cause judgments via augmentation. Increased intentionality leads to greater perceptions of volitional and causal control. With regard to foreseeability, the blame judgments
+showed a more clear-cut pattern than the causal judgments.",https://www.sciencedirect.com/science/article/abs/pii/S0010027708001638 
+,"El escenario NO fue extraido tal cual está escrito, fue reconstruido con información proporcioanda. ",2.2,"Lucy buys a self-assembly chair and starts to put it together. The instructions are very confusing. Lucy thinks she has not made the chair properly and it is likely to
+break. However, she has made the chair properly and it is unlikely
+to break. Lucy’s sister comes into the room and sits down on the new chair. The
+chair collapses beneath Lucy’s sister, injuring her.",Causal chain,,,x,x,,,,,,,https://www.sciencedirect.com/science/article/abs/pii/S0010027708001639
+,"El escenario NO fue extraido tal cual está escrito, fue reconstruido con información proporcioanda. ",2.3,"Lucy buys a self-assembly chair and starts to put it together. The instructions are very confusing. Lucy thinks she has made the chair properly and it is unlikely to
+break. However, she has not made the chair properly and it is
+likely to break. Lucy’s sister comes into the room and sits down on the new chair. The
+chair collapses beneath Lucy’s sister, injuring her.",Causal chain,,,x,x,,,,,,,https://www.sciencedirect.com/science/article/abs/pii/S0010027708001640
+,"El escenario NO fue extraido tal cual está escrito, fue reconstruido con información proporcioanda. ",2.4,"Lucy buys a self-assembly chair and starts to put it together. The instructions are very confusing. Lucy thinks she has made the chair properly and it is unlikely to
+break. Indeed, she has made the chair properly and it is unlikely
+to break. Lucy’s sister comes into the room and sits down on the new chair. The
+chair collapses beneath Lucy’s sister, injuring her.",Causal chain,,,x,x,,,,,,,https://www.sciencedirect.com/science/article/abs/pii/S0010027708001641
+Can unintended side effects be intentional? Resolving a controversy over intentionality and morality,El escenario fue extraído tal cual está escrito.,1.1,"The vice-president of a company went to the chairman
+of the board and said, “We are thinking of starting a
+new program. It will help us increase profits, but
+it will also harm the environment.” The chairman of the board answered, “I don’t care at all about
+harming the environment. I just want to make
+as much profit as I can. Let’s start the new program.”
+They started the new program. Sure enough, the environment was harmed.",Not reported,,,,x,,,,,,"Although the chairman knew that the environment would
+be harmed [helped], people recognize that he did not
+specifically intend to bring about this effect (Knobe, 2004b;
+McCann, 2005). Nonetheless, 82% of people said the
+chairman intentionally harmed the environment whereas
+only 23% said he intentionally helped the environment.",https://research.clps.brown.edu/SocCogSci/Publications/Pubs/Guglielmo_Malle_2010a_SIDE_EFFECT.pdf
+,El escenario fue extraído tal cual está escrito.,1.2,"The vice-president of a company went to the chairman
+of the board and said, “We are thinking of starting a
+new program. It will help us increase profits, and
+it will also help the environment.” The chairman of the board answered, “I don’t care at all about
+helping the environment. I just want to make
+as much profit as I can. Let’s start the new program.”
+They started the new program. Sure enough, the environment was helped.",Not reported,,,,x,,,,,,,https://research.clps.brown.edu/SocCogSci/Publications/Pubs/Guglielmo_Malle_2010a_SIDE_EFFECT.pdf
+,El escenario fue extraído tal cual está escrito.,2.1,"The woman’s husband came to her before the party and said: “I have found a dress for you to wear at the party. You will look great, but you will also break the party dress code.” The woman answered, “I don’t care at all about breaking the party dress code. I just want to look great.” She wore the dress and, sure enough, she broke the party dress code.",Not reported,,,,x,,,,"(“How much did the woman want to break [conform to] the
+party dress code?”) on a scale from –5 (not at all) to 5 (very
+much), and a yes–no intentionality question (“Did the woman
+intentionally break [conform to] the party dress code?”). They
+also answered a question about the importance of dress codes
+(“How important do you think it is for people to follow party
+dress codes?”) on the same scale as the desire question.",,"As predicted, people inferred greater desire in the norm
+breaking scenario than in the conforming scenario. This effect
+was not moderated by the order of the scenarios. People were far more likely to say that the agent intentionally broke the dress code (64%) than that she intentionally
+conformed to it (35%) ",https://research.clps.brown.edu/SocCogSci/Publications/Pubs/Guglielmo_Malle_2010a_SIDE_EFFECT.pdf
+,El escenario fue extraído tal cual está escrito.,2.2,"The woman’s husband came to her before the party and said: “I have found a dress for you to wear at the party. You will look great, and you will also conform to the party dress code.” The woman answered, “I don’t care at all about conforming to the party dress code. I just want to look great.” She wore the dress and, sure enough, she conformed to the party dress code.",Not reported,,,,x,,,,,,,https://research.clps.brown.edu/SocCogSci/Publications/Pubs/Guglielmo_Malle_2010a_SIDE_EFFECT.pdf
+Attribution of Responsibility Between Agents in a Causal Chain of Events,El escenario fue extraído tal cual está escrito.,1,"A delivers heroin to B’s house,
+and then B prepares the drugs for B and his friend V to inject. B injects the drugs first in
+his arm, and then gives the syringe to V, who injects himself with the same amount.
+Shortly after B and V inject the heroin into their arms, V loses consciousness and collapses
+on the floor. Sometime later, V dies from a heroin overdose.",Causal chain,,,x,,x,,,,,"In these kinds of cases, the foreseeability of the intervening act no longer serves as
+the sole factor when assessing causation and responsibility. Divergent responses to this
+type of case reveal inconsistencies in the legal tests employed as well as the importance of case-specific facts. Typically, V’s voluntarily injecting himself is an intervening act that
+does not in itself break the chain of causal responsibility for either A or B, who can both
+be found guilty of manslaughter.",https://escholarship.org/uc/item/7zr9p3jv
+,El escenario fue extraído tal cual está escrito.,2,"A deliberately throws a lighted cigarette into a shrub
+which catches fire, and the fire is exacerbated by B pouring petrol on the flames. ",Collider with temporal delay,,,,,x,x,,,,"People are more likely to attribute ´ causality to the proximal cause (B) since it is a human action that intervened in the causal chain, regardless of whether the distal cause (A) is a human action or a physical cause.",
+,El escenario fue extraído tal cual está escrito.,3,"A tells B to set V’s house on fire,
+and V returns to the burning building to save some of his property and dies",Causal chain,,,x,,,,,,," Thiss is a
+foreseeable intervening act and does not break the chain of causation for V’s death.",
+,El escenario fue extraído tal cual está escrito.,4,"A attacks V, and while the attack by itself would not
+have caused death, it reasonably induced V to jump out of a window to flee",Causal chain,,,,,,,,,, That could result in a criminal homicide.,
+,El escenario fue extraído tal cual está escrito.,5.1,"Adam Smith and Ben Parker are on trial for the death of Veronica Brown. In the trial, it was stated that Ben caused severe injuries to Veronica in her home on Thursday 10 November 2022. According to the forensic report, Veronica died soon from the injuries, and her body was found in the early hours of the following day. Evidence showed that Adam used an online platform to initiate contact with Ben prior to the victim’s death. On Monday 7 November (three days before the victim’s death), the pair had met in person. During their conversation, Adam provided specific instructions for the attack, and told Ben to cover it up so it would look like an accident. At the trial, Ben admitted to attacking Veronica, but stated that he would not have done so if Adam had not instructed him to. Adam insisted that despite his involvement, the killing was ultimately executed by Ben and that Ben’s actions were the main cause of Veronica’s death. A only instructs B to attack V, not necessarily intending V’s death. v dies.",Causal chain,,,,,,,,"‘To
+what extent was each defendant causally responsible / blameworthy / deserving of punishment for the victim’s death?’",,"Naturally, in a straightforward ‘hired gun’ murder, the victim’s death is a foreseeable outcome to the instigator. But imagine a scenario where A only instructs B to attack V, not necessarily intending V’s death (as in Figure 1). Would the causal chain break if B develops their own motive of wanting V dead, which leads to an action (and outcome) that A could not have foreseen? In other words, would laypeople mitigate A’s responsibility when B’s action goes beyond what A had intended? ""Overall, participants were more severe in their moral judgments for B compared to A. Participants judged B (M = 58.4)
+to be more causally responsible than A. They also judged B 
+to be more blameworthy than A. Further, they judged B to
+deserve more severe punishment than A.""",
+,,5.2,"Condition 1: Both A and B intended to kill V (A instructed B to kill V, B executed the killing)",Causal chain,,,,,,,,,,"We replicated the results of Study 1 showing that the
+agents’ role had a significant main effect on judgments.
+Participants judged B to be more causally responsible, more blameworthy,  and deserving of more severe punishment
+than A. We found that B’s intent did not influence moral judgments
+between the two agents. we found a significant interaction between A’s intent and role
+for judgments of causal responsibility, blameworthiness,  and
+how much they deserved to be punished. For causal responsibility judgments, participants judged A
+ to be less responsible than
+B  when A had low intent. Conversely, when A had high intent, there was no significant difference in judgments between
+A. For blameworthiness judgments, participants judged A
+ to be significantly less
+blameworthy than B when
+A had low intent. However, when
+A had high intent, judgments of blame did not significantly differ.",
+,,5.3,"Condition 2: Both A and B did not intend to kill V (A instructed B to ‘rough up’ V, B intended to ‘rough up’ but accidentally killed V);",,,,,,,,,,,,
+,,5.4,"Condition 3: A intended to kill V but B did not (A instructed B to kill V, B intended to ‘rough up’ but accidentally killed V)",,,,,,,,,,,,
+,,5.5,"Condition 4: A did not intend to kill but B intended to kill V (A instructed B to ‘rough up’ V, B intended to kill V and executed the killing)",,,,,,,,,,,,
+Causal superseding,El escenario fue extraído tal cual está escrito.,1.1,"Bill’s wife, Sue, is out of town for the weekend. She leaves Bill a message that says, “I just saw this marvelous bookend. It’s called a Bartlett bookend. So pretty! I’m going to go back tomorrow and get one. It will be perfect for the left side of our bookshelf!”.Bill goes and visits his friend. Bill and his friend talk for a while, and when Bill asks if his friend is willing to sell the bookend, his friend is happy to sell it. Bill makes an offer, but his friend insists on him not paying so much. Finally, Bill buys the right-side Bartlett bookend from his friend and goes home.Then the next day, Sue goes and buys the left-side Bartlett bookend. So, when Sue got home, they had the paired set of bookends.",Conjunctive causation ,,x,,,,,,,,"We evaluated the effect of the moral valence manipulation on causal ratings for each agent independently, as well
+as valence ratings for each agent and the outcome. Agreement ratings for the varied agent (Bill) were higher when
+he violated a norm than when he did not. For the fixed agent (Sue), we found a clear causal superseding effect. Agreement ratings for the fixed agent were
+lower when the varied agent violated a norm than when he did not.",https://www.sciencedirect.com/science/article/abs/pii/S0010027715000220
+,El escenario fue extraído tal cual está escrito.,1.12,"Bill’s wife, Sue, is out of town for the weekend. She leaves Bill a message that says, “I just saw this marvelous bookend. It’s called a Bartlett bookend. So pretty! I’m going to go back tomorrow and get one. It will be perfect for the left side of our bookshelf!”. Bill goes and visits his friend. Bill and his friend talk for a while, and when Bill asks if his friend is willing to sell the bookend, his friend tells him it’s a precious heirloom and he can’t part with it. Bill waits until later when his friend is in the bathroom, and slips the bookend into his bag. Finally, Bill leaves his friend’s house with the stolen right-side Bartlett bookend in his bag. Then the next day, Sue goes and buys the left-side Bartlett bookend. So, when Sue got home, they had the paired set of bookends.
+
+",Conjunctive causation ,,x,,,,,,,,,https://www.sciencedirect.com/science/article/abs/pii/S0010027715000220
+,El escenario fue extraído tal cual está escrito.,2.1,"Suzy and Billy are working on a project that is very important for our nation’s security. The boss tells them both:
+“Be sure that you are here at exactly 9 a.m. It is absolutely essential that you arrive at that time.”Both Billy and Suzy arrive at 9 a.m. As it happens, there was a motion detector installed in the room where they arrived. The motion detector was setup to be triggered if more than one person appeared in the room at the same time.
+So the motion detector went off.
+
+",Conjunctive causation ,,x,,,,,,,,"There was a significant
+superseding effect in the conjunctive condition, with lower
+agreement ratings for the fixed agent when the varied
+agent’s actions were morally wrong 
+than when they were not.  However, in the disjunctive condition, there was no such superseding effect:
+Agreement ratings for the fixed agent did not differ
+between situations in which the varied agent’s actions
+were immoral or neutral. These results support the predictions of the counterfactual sufficiency account of causal superseding: Causal
+superseding occurs only when the actions of one agent
+can affect the sufficiency of the other agent’s action.",https://www.sciencedirect.com/science/article/abs/pii/S0010027715000220
+,El escenario fue extraído tal cual está escrito.,2.2,"Suzy and Billy are working on a project that is very important for our nation’s security. The boss tells Suzy:
+“Be sure that you are here at exactly 9 a.m. It is absolutely essential that you arrive at that time.”
+Then he tells Billy:
+“Be sure that you do not come in at all tomorrow morning. It is absolutely essential that you not appear at that time.”Suzy and Billy arrive at 9 a.m.As it happens, there was a motion detector installed in the room where they arrived. The motion detector was setup to be triggered if at least one person appeared in the room.
+So the motion detector went off.
+
+",Disjunctive causation ,,x,,,,,,,,,https://www.sciencedirect.com/science/article/abs/pii/S0010027715000220
